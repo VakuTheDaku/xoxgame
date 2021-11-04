@@ -1,0 +1,73 @@
+.card{
+    
+    margin: auto;
+    align-content: center;
+    background-color: #8d8c81;
+    
+}
+.card-title{
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+.btn{
+    
+    margin-top: 1.5rem;
+}
+.tictactoe{
+    
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    
+}
+td{
+    
+    border: 0.2rem solid black;
+    width: 10rem;
+    height: 10rem;
+    
+    font-size: 5rem;
+    text-align: center;
+}
+
+.diagonalRising
+{
+	background: linear-gradient(to right bottom, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+
+.diagonalFalling
+{
+	background: linear-gradient(to right top, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+.diagonalBottom
+{
+	background: linear-gradient(to right, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+.diagonalLeft
+{
+	background: linear-gradient(to top, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+td.diagonalCross
+{
+	position:   relative;
+	background: linear-gradient(to right bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 49.9%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 51%,rgba(0,0,0,0) 51.1%,rgba(0,0,0,0) 100%);
+}
+
+td.diagonalCross:after
+{
+	content:     "";
+	display:     block;
+	position:    absolute;
+	width:       100%;
+	height:      100%;
+	top:         0;
+	left:        0;
+	z-index:     -1;
+	background:  linear-gradient(to right top, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
