@@ -29,6 +29,8 @@ function get(){
         {
                 
                 p[i].onclick=function(){ 
+                if(this.textContent==''){
+                    
                 
                 
                 if(a==0)
@@ -43,6 +45,7 @@ function get(){
                 }
             
         }
+    }
     }
    
 }
